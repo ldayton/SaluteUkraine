@@ -12,11 +12,9 @@ const description = "Send your love & support to Ukraine. Record your message no
 export default function Flag() {
   useEffect(() => {
     const canvas = document.getElementById("ukraine-flag") as HTMLCanvasElement | null;
-    if (!canvas) {
-      console.error("can't find canvas");
-      return;
+    if (canvas) {
+      initAnimation(canvas, "#fafaed");
     }
-    initAnimation(canvas, "#fafaed");
   });
 
   return (
@@ -44,12 +42,10 @@ export default function Flag() {
         <canvas id="ukraine-flag" width="500" height="500" />
         <div className="helpus max-w-3xl text-xl flex flex-col gap-y-4">
           <p>
-            <a href="https://en.wikipedia.org/wiki/Ruscism">Russian fascism</a> is on the march, but
-            not everyone understands the threat. We are technology professionals using our talents
-            to rally global public support for Ukraine, through the power of user generated video.
+            We are technology professionals using our talents to rally global public support for Ukraine, through the power of user generated video.
             We have a simple message: <strong>democracy is non-negotiable</strong>!
           </p>
-          <p>
+          <div>
             Can you help? We need specialists in these areas:
             <ol className="list-disc list-inside">
               <li>
@@ -63,7 +59,7 @@ export default function Flag() {
               <li>UX & web design</li>
               <li>Copywriting</li>
             </ol>
-          </p>
+          </div>
           <p>
             Contact Lily Dayton by <a href="lily.dayton.3@gmail.com">email</a> or on{" "}
             <a href="https://www.linkedin.com/in/lily-dayton/">LinkedIn</a> to learn more.
