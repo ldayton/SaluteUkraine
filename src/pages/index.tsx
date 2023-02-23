@@ -1,6 +1,6 @@
 import Head from "next/head";
-import { useEffect } from "react";
-import { initAnimation } from "@/lib/waving-flag";
+import Image from "next/image";
+import saveUkrainianChildrenPic from "public/save-ukrainian-children.webp";
 
 const title = "Salute Ukraine!";
 const tagline = "Send your message of support now.";
@@ -10,13 +10,6 @@ const thumbnail = "https://";
 const description = "Send your love & support to Ukraine. Record your message now.";
 
 export default function Flag() {
-  useEffect(() => {
-    const canvas = document.getElementById("ukraine-flag") as HTMLCanvasElement | null;
-    if (canvas) {
-      initAnimation(canvas, "#fafaed");
-    }
-  });
-
   return (
     <>
       <Head>
@@ -36,34 +29,48 @@ export default function Flag() {
         <meta name="twitter:image" content={thumbnail} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <main className="flex flex-col items-center gap-y-4 p-8">
-        <h1 className="headline text-5xl font-bold">Salute Ukraine!</h1>
-        <h2 className="tagline text-xl">Connecting Ukrainians with free people around the world</h2>
-        <canvas id="ukraine-flag" width="500" height="500" />
-        <div className="helpus max-w-3xl text-xl flex flex-col gap-y-4">
-          <p>
-            We are technology professionals using our talents to rally global public support for Ukraine, through the power of user generated video.
-            We have a simple message: <strong>democracy is non-negotiable</strong>!
-          </p>
+      <main className="flex flex-col items-center gap-y-4 bg-white">
+        <header className="header flex flex-row p-8 pb-6">
+          <h1 className="headline text-5xl font-bold">Salute Ukraine!</h1>
+        </header>
+        <section className="hero w-full shadow-xl">
+          <div className="text-xl flex flex-col items-center gap-y-4  p-12 font-bold ">
+            <h2 className="text-2xl">
+              We are technology professionals rallying global public support for Ukraine.
+            </h2>
+          </div>
+        </section>
+        <div className="grid grid-cols-2 p-12 pt-8 pb-8">
           <div>
-            Can you help? We need specialists in these areas:
+            <h3 className="font-bold text-xl">We need volunteers in these areas:</h3>
             <ol className="list-disc list-inside">
+              <li>Software development (React + Next.js)</li>
               <li>
                 Translation, especially Ukrainian, German, French, Japanese, Korean, Chinese,
                 Spanish, Hebrew, and Turkish.
               </li>
-              <li>Video editing (e.g., Premiere Pro and After Effects)</li>
-              <li>Image editing (Photoshop)</li>
-              <li>Illustration (e.g., Illustrator, Figma)</li>
-              <li>Software development (Typescript, React, Next.js, CSS)</li>
+              <li>Video editing</li>
+              <li>Image editing & illustration</li>
               <li>UX & web design</li>
-              <li>Copywriting</li>
             </ol>
           </div>
-          <p>
-            Contact Lily Dayton by <a href="lily.dayton.3@gmail.com">email</a> or on{" "}
-            <a href="https://www.linkedin.com/in/lily-dayton/">LinkedIn</a> to learn more.
-          </p>
+          <div>
+            <Image
+              src={saveUkrainianChildrenPic}
+              alt="Girl draped in Ukrainian flag holding sign saying 'Save Ukrainian Children'"
+            />
+          </div>
+        </div>
+        <div className="contact text-2xl p-8 shadow-xl rounded">
+          Contact Lily Dayton by{" "}
+          <a className="underline" href="lily.dayton.3@gmail.com">
+            email
+          </a>{" "}
+          or on{" "}
+          <a className="underline" href="https://www.linkedin.com/in/lily-dayton/">
+            LinkedIn
+          </a>{" "}
+          to learn more.
         </div>
       </main>
     </>

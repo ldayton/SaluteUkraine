@@ -7,6 +7,8 @@ body {
   box-sizing: border-box;
   max-width: 100vw;
   overflow-x: hidden;
+  --ukraine-blue: #2b58b8;
+  --ukraine-yellow: #ffd700;
 }
 *,
 *::before,
@@ -14,4 +16,14 @@ body {
   box-sizing: inherit;
   padding: 0;
   margin: 0;
+}
+
+.hero {
+  background-color: var(--ukraine-blue);
+  color: var(--ukraine-yellow);
+}
+
+.contact {
+  background-color: var(--ukraine-blue);
+  color: var(--ukraine-yellow);
 }
