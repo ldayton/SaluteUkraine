@@ -15,25 +15,26 @@
     "@fontsource/roboto": "^4.5.8",
     "@mui/icons-material": "^5.11.9",
     "@mui/material": "^5.11.10",
-    "@next/font": "13.1.6",
-    "@types/node": "18.14.0",
+    "@next/font": "13.2.1",
+    "@types/node": "18.14.1",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
     "eslint": "8.34.0",
-    "eslint-config-next": "13.1.6",
-    "next": "13.1.6",
+    "eslint-config-next": "13.2.1",
+    "next": "13.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "three": "^0.149.0",
+    "three": "^0.150.0",
     "typescript": "4.9.5"
   },
   "devDependencies": {
     "@types/three": "^0.149.0",
-    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
     "autoprefixer": "^10.4.13",
     "eslint-config-prettier": "^8.6.0",
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
-    "tailwindcss": "^3.2.7"
+    "tailwindcss": "^3.2.7",
+    "vercel": "^28.16.7"
   }
 }
