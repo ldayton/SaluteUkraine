@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 
 const title = "Salute Ukraine!";
 const tagline = "Send your message of support now.";
@@ -54,7 +53,7 @@ export default function Flag() {
             </ol>
           </div>
           <div>
-            <Image
+            <img
               src="https://res.cloudinary.com/dxjzrhogi/image/upload/v1677264833/salute-ukraine/save-ukrainian-children_qsrrlt.webp"
               alt="Girl draped in Ukrainian flag holding sign saying 'Save Ukrainian Children'"
               width="500"
@@ -67,7 +66,7 @@ export default function Flag() {
           <div className="pl-8 pr-8 self-center">
             <ul className="list-disc list-inside items-start">
               <li>
-                <a className="underline" href="lily.dayton.3@gmail.com">
+                <a className="underline" href="mailto:lily.dayton.3@gmail.com">
                   Email
                 </a>
               </li>
