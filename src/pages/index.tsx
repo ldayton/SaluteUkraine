@@ -6,7 +6,7 @@ const title = "Salute Ukraine!";
 const tagline = "Send your message of support now.";
 const socialTitle = title + " " + tagline;
 const url = "https://www.saluteukraine.com";
-const thumbnail = "https://";
+const thumbnail = "https://www.saluteukraine.com/favicon.ico";
 const description = "Send your love & support to Ukraine. Record your message now.";
 
 export default function Flag() {
@@ -78,8 +78,7 @@ export default function Flag() {
               <li>
                 <a
                   className="underline"
-                  href="https://www.facebook.com/profile.php?id=100090066385190"
-                >
+                  href="https://www.facebook.com/profile.php?id=100090066385190">
                   Facebook
                 </a>
               </li>
