@@ -4,6 +4,9 @@ const nextConfig = {
   experimental: {
     runtime: "experimental-edge",
   },
+  images: {
+    domains: ["res.cloudinary.com"],
+  },
 };
 
 module.exports = nextConfig;

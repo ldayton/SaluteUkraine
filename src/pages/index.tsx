@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import saveUkrainianChildrenPic from "public/save-ukrainian-children.webp";
 
 const title = "Salute Ukraine!";
 const tagline = "Send your message of support now.";
@@ -56,12 +55,14 @@ export default function Flag() {
           </div>
           <div>
             <Image
-              src={saveUkrainianChildrenPic}
+              src="https://res.cloudinary.com/dxjzrhogi/image/upload/v1677264833/salute-ukraine/save-ukrainian-children_qsrrlt.webp"
               alt="Girl draped in Ukrainian flag holding sign saying 'Save Ukrainian Children'"
+              width="500"
+              height="500"
             />
           </div>
         </div>
-        <div className="contact text-2xl p-4 shadow-xl rounded  w-full flex flex-col gap-y-4">
+        <div className="contact text-xl p-4 shadow-xl rounded  w-full flex flex-col gap-y-2">
           <div className="text-center">Contact Lily Dayton to learn more!</div>
           <div className="pl-8 pr-8 self-center">
             <ul className="list-disc list-inside items-start">
@@ -78,8 +79,7 @@ export default function Flag() {
               <li>
                 <a
                   className="underline"
-                  href="https://www.facebook.com/profile.php?id=100090066385190"
-                >
+                  href="https://www.facebook.com/profile.php?id=100090066385190">
                   Facebook
                 </a>
               </li>
