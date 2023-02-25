@@ -2,11 +2,12 @@
 import Head from "next/head";
 
 const title = "Salute Ukraine!";
-const tagline = "Send your message of support now.";
+const tagline = "Volunteer to help Ukraine.";
 const socialTitle = title + " " + tagline;
 const url = "https://www.saluteukraine.com";
-const thumbnail = "https://www.saluteukraine.com/favicon.ico";
-const description = "Send your love & support to Ukraine. Record your message now.";
+const thumbnail =
+  "https://res.cloudinary.com/dxjzrhogi/image/upload/v1677289933/salute-ukraine/stop-putin_ghpniw.webp";
+const description = "We are technology professionals rallying global public support for Ukraine.";
 
 export default function Flag() {
   return (
@@ -79,7 +80,8 @@ export default function Flag() {
               <li>
                 <a
                   className="underline"
-                  href="https://www.facebook.com/profile.php?id=100090066385190">
+                  href="https://www.facebook.com/profile.php?id=100090066385190"
+                >
                   Facebook
                 </a>
               </li>
