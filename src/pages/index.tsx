@@ -4,8 +4,6 @@ import Head from "next/head";
 const previewUrl = "https://www.saluteukraine.com";
 const previewThumbnail =
   "https://res.cloudinary.com/dxjzrhogi/image/upload/v1677289933/salute-ukraine/stop-putin_ghpniw.webp";
-const previewThumbnailTwitter =
-  "https://res.cloudinary.com/dxjzrhogi/image/upload/c_pad,ar_1.91/salute-ukraine/stop-putin_ghpniw.webp";
 const previewThumbnailAlt = "hand holding sign that says 'STOP PUTIN'";
 const previewTitle = "Salute Ukraine! Volunteer now 💪";
 const previewDescription = "Tech professionals rallying global public support for Ukraine.";
@@ -26,10 +24,9 @@ export default function Flag() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content={previewUrl} />
 
-        <meta name="twitter:title" content={previewTitle} />
-        <meta name="twitter:description" content={previewDescription} />
-        <meta name="twitter:image" content={previewThumbnailTwitter} />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@SaluteUkraine" />
+        <meta name="twitter:creator" content="@SaluteUkraine" />
+        <meta name="twitter:card" content="summary" />
       </Head>
       <main className="flex flex-col items-center bg-white">
         <header className="header flex flex-row p-4 pb-3 items-center text-center">
