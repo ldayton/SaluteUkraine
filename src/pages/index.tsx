@@ -4,6 +4,7 @@ import Head from "next/head";
 const previewUrl = "https://www.saluteukraine.com";
 const previewThumbnail =
   "https://res.cloudinary.com/dxjzrhogi/image/upload/v1677289933/salute-ukraine/stop-putin_ghpniw.webp";
+const previewThumbnailAlt = "hand holding sign that says 'STOP PUTIN'";
 const previewTitle = "Salute Ukraine! Volunteer now 💪";
 const previewDescription = "Tech professionals rallying global public support for Ukraine.";
 
@@ -19,6 +20,7 @@ export default function Flag() {
         <meta property="og:title" content={previewTitle} />
         <meta property="og:description" content={previewDescription} />
         <meta property="og:image" content={previewThumbnail} />
+        <meta property="og:image:alt" content={previewThumbnailAlt} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={previewUrl} />
 
