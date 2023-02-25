@@ -1,32 +1,30 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 
-const title = "Salute Ukraine!";
-const tagline = "Volunteer to help Ukraine.";
-const socialTitle = title + " " + tagline;
-const url = "https://www.saluteukraine.com";
-const thumbnail =
+const previewUrl = "https://www.saluteukraine.com";
+const previewThumbnail =
   "https://res.cloudinary.com/dxjzrhogi/image/upload/v1677289933/salute-ukraine/stop-putin_ghpniw.webp";
-const description = "We are technology professionals rallying global public support for Ukraine.";
+const previewTitle = "Salute Ukraine! Volunteer now 💪";
+const previewDescription = "Tech professionals rallying global public support for Ukraine.";
 
 export default function Flag() {
   return (
     <>
       <Head>
-        <title>Salute Ukraine! Record your message of support now.</title>
-        <meta name="description" content={description} />
+        <title>Salute Ukraine! Volunteer now 💪</title>
+        <meta name="description" content={previewDescription} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
 
-        <meta property="og:title" content={socialTitle} />
-        <meta property="og:description" content={description} />
-        <meta property="og:image" content={thumbnail} />
+        <meta property="og:title" content={previewTitle} />
+        <meta property="og:description" content={previewDescription} />
+        <meta property="og:image" content={previewThumbnail} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={url} />
+        <meta property="og:url" content={previewUrl} />
 
-        <meta name="twitter:title" content={socialTitle} />
-        <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content={thumbnail} />
+        <meta name="twitter:title" content={previewTitle} />
+        <meta name="twitter:description" content={previewDescription} />
+        <meta name="twitter:image" content={previewThumbnail} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <main className="flex flex-col items-center bg-white">
