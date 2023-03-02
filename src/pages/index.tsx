@@ -67,8 +67,10 @@ export default function Flag() {
           <div className="pl-8 pr-8 self-center">
             <ul className="list-disc list-inside items-start">
               <li>
-                <a className="underline" href="mailto:lily.dayton.3@gmail.com">
-                  Email
+                <a
+                  className="underline"
+                  href="https://www.youtube.com/channel/UCLNXzp2NKjrEfmWjTJJykcA">
+                  YouTube
                 </a>
               </li>
               <li>
@@ -84,10 +86,8 @@ export default function Flag() {
                 </a>
               </li>
               <li>
-                <a
-                  className="underline"
-                  href="https://www.youtube.com/channel/UCLNXzp2NKjrEfmWjTJJykcA">
-                  YouTube
+                <a className="underline" href="mailto:lily.dayton.3@gmail.com">
+                  Email
                 </a>
               </li>
             </ul>
