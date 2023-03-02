@@ -79,9 +79,15 @@ export default function Flag() {
               <li>
                 <a
                   className="underline"
-                  href="https://www.facebook.com/profile.php?id=100090066385190"
-                >
+                  href="https://www.facebook.com/profile.php?id=100090066385190">
                   Facebook
+                </a>
+              </li>
+              <li>
+                <a
+                  className="underline"
+                  href="https://www.youtube.com/channel/UCLNXzp2NKjrEfmWjTJJykcA">
+                  YouTube
                 </a>
               </li>
             </ul>
