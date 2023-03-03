@@ -43,7 +43,7 @@ export default function Flag() {
           <div className="mb-3">
             <h3 className="font-bold text-xl">We need volunteers in these areas:</h3>
             <ol className="list-disc list-inside">
-              <li>Software development (React + Next.js)</li>
+              <li>Hosts & co-hosts for videos and podcasts</li>
               <li>
                 Translation, especially Ukrainian, German, French, Japanese, Korean, Chinese,
                 Spanish, Hebrew, and Turkish.
@@ -51,6 +51,7 @@ export default function Flag() {
               <li>Video editing</li>
               <li>Image editing & illustration</li>
               <li>UX & web design</li>
+              <li>Software development (React + Next.js)</li>
             </ol>
           </div>
           <div>
@@ -69,7 +70,8 @@ export default function Flag() {
               <li>
                 <a
                   className="underline"
-                  href="https://www.youtube.com/channel/UCLNXzp2NKjrEfmWjTJJykcA">
+                  href="https://www.youtube.com/channel/UCLNXzp2NKjrEfmWjTJJykcA"
+                >
                   YouTube
                 </a>
               </li>
@@ -81,7 +83,8 @@ export default function Flag() {
               <li>
                 <a
                   className="underline"
-                  href="https://www.facebook.com/profile.php?id=100090066385190">
+                  href="https://www.facebook.com/profile.php?id=100090066385190"
+                >
                   Facebook
                 </a>
               </li>
