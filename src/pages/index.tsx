@@ -53,12 +53,12 @@ export default function Flag() {
             />
             <Icon
               name="LinkedIn"
-              path="icons/facebook_s2xkqt.svg"
+              path="icons/linkedin_togz5a.svg"
               href="https://www.linkedin.com/in/lily-dayton/"
             />
             <Icon
               name="Facebook"
-              path="icons/telegram_syolpz.svg"
+              path="icons/facebook_s2xkqt.svg"
               href="https://www.facebook.com/profile.php?id=100090066385190"
             />
             <Icon
