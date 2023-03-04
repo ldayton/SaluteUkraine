@@ -29,19 +29,48 @@ export default function Flag() {
         <meta name="twitter:card" content="summary" />
       </Head>
       <main className="flex flex-col items-center bg-white">
-        <header className="header flex flex-row p-4 pb-3 items-center text-center">
-          <h1 className="headline text-3xl font-bold">Salute Ukraine!</h1>
+        <header className="header flex flex-row p-4 pb-3 items-center text-center shadow">
+          <h1 className="headline text-4xl font-bold">Salute Ukraine!</h1>
         </header>
-        <section className="hero w-full shadow-xl">
-          <div className="text-xl flex flex-col items-center gap-y-4  p-4 font-bold ">
-            <h2 className="text-xl text-center">
-              We are technology professionals rallying global public support for Ukraine.
-            </h2>
+        <section className="hero w-full shadow">
+          <div className="flex flex-col items-center justify-center gap-y-4  p-4">
+            <div className="w-full">
+              <h2 className="text-2xl font-bold text-center">
+                We are technology professionals rallying global public support for Ukraine.
+              </h2>
+            </div>
+          </div>
+          <div className="icons bg-white flex flex-row flex-wrap justify-center p-4 gap-8 text-black underline">
+            <Icon
+              name="Telegram"
+              path="icons/telegram_syolpz.svg"
+              href="https://t.me/SaluteUkraine"
+            />
+            <Icon
+              name="YouTube"
+              path="icons/youtube_hvxem0.svg"
+              href="https://www.youtube.com/channel/UCLNXzp2NKjrEfmWjTJJykcA"
+            />
+            <Icon
+              name="LinkedIn"
+              path="icons/facebook_s2xkqt.svg"
+              href="https://www.linkedin.com/in/lily-dayton/"
+            />
+            <Icon
+              name="Facebook"
+              path="icons/telegram_syolpz.svg"
+              href="https://www.facebook.com/profile.php?id=100090066385190"
+            />
+            <Icon
+              name="E-Mail"
+              path="icons/email_vwkeyr.svg"
+              href="mailto:lily.dayton.3@gmail.com"
+            />
           </div>
         </section>
         <div className="grid grid-cols-1 p-8 pt-4">
           <div className="mb-3">
-            <h3 className="font-bold text-xl">We need volunteers in these areas:</h3>
+            <h3 className="font-bold text-xl">Volunteers Needed!</h3>
             <ol className="list-disc list-inside">
               <li>Hosts & co-hosts for videos and podcasts</li>
               <li>
@@ -64,39 +93,43 @@ export default function Flag() {
           </div>
         </div>
         <div className="contact text-xl p-4 shadow-xl rounded  w-full flex flex-col gap-y-2">
-          <div className="text-center">Contact Lily Dayton to learn more!</div>
-          <div className="pl-8 pr-8 self-center">
-            <ul className="list-disc list-inside items-start">
-              <li>
-                <a
-                  className="underline"
-                  href="https://www.youtube.com/channel/UCLNXzp2NKjrEfmWjTJJykcA"
-                >
-                  YouTube
-                </a>
-              </li>
-              <li>
-                <a className="underline" href="https://www.linkedin.com/in/lily-dayton/">
-                  LinkedIn
-                </a>
-              </li>
-              <li>
-                <a
-                  className="underline"
-                  href="https://www.facebook.com/profile.php?id=100090066385190"
-                >
-                  Facebook
-                </a>
-              </li>
-              <li>
-                <a className="underline" href="mailto:lily.dayton.3@gmail.com">
-                  Email
-                </a>
-              </li>
-            </ul>
+          <div className="text-center">
+            Contact{" "}
+            <a className="underline" href="mailto:lily.dayton.3@gmail.com">
+              Lily Dayton
+            </a>{" "}
+            to learn more!
           </div>
         </div>
       </main>
     </>
+  );
+}
+
+type IconProps = {
+  href: string;
+  name: string;
+  path: string;
+};
+
+function Icon({ href, name, path }: IconProps) {
+  const size = 40;
+  return (
+    <div className="flow flow-col items-center justify-center text-center">
+      <a
+        className="flex justify-center"
+        style={{ minWidth: 70, minHeight: 50 }}
+        href={href}
+        target="_blank"
+      >
+        <img
+          src={`https://res.cloudinary.com/dxjzrhogi/image/upload/w_${size},h_${size},c_fill/v1677879795/salute-ukraine/${path}`}
+          alt={`${name} Logo`}
+          width={size}
+          height={size}
+        />
+      </a>
+      <div className="self-end">{`${name}`}</div>
+    </div>
   );
 }
