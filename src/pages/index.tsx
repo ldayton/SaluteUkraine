@@ -115,21 +115,16 @@ type IconProps = {
 function Icon({ href, name, path }: IconProps) {
   const size = 40;
   return (
-    <div className="flow flow-col items-center justify-center text-center">
-      <a
-        className="flex justify-center"
-        style={{ minWidth: 70, minHeight: 50 }}
-        href={href}
-        target="_blank"
-      >
+    <div className="flex flex-col items-center text-center" style={{ width: 70, height: 70 }}>
+      <a className="flex flex-col items-center w-full h-full justify-between" href={href} target="_blank">
         <img
           src={`https://res.cloudinary.com/dxjzrhogi/image/upload/w_${size},h_${size},c_fill/v1677879795/salute-ukraine/${path}`}
           alt={`${name} Logo`}
           width={size}
           height={size}
         />
+        <div>{`${name}`}</div>
       </a>
-      <div className="self-end">{`${name}`}</div>
     </div>
   );
 }
