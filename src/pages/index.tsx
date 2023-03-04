@@ -3,7 +3,7 @@ import Head from "next/head";
 
 const previewUrl = "https://www.saluteukraine.com/";
 const previewThumbnail =
-  "https://res.cloudinary.com/dxjzrhogi/image/upload/v1677289933/salute-ukraine/stop-putin_ghpniw.webp";
+  "https://res.cloudinary.com/dxjzrhogi/image/upload/v1677942627/salute-ukraine/stop-putin-large_iw6baf.png";
 const previewThumbnailAlt = "hand holding sign that says 'STOP PUTIN'";
 const previewTitle = "Salute Ukraine! Volunteer now 💪";
 const previewDescription = "Tech professionals rallying global public support for Ukraine.";
