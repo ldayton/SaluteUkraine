@@ -30,8 +30,18 @@ export default function Flag() {
         <meta name="twitter:card" content="summary" />
       </Head>
       <main className="flex flex-col items-center bg-white">
-        <header className="header flex flex-row p-4 pb-3 items-center text-center">
-          <h1 className="headline text-4xl font-bold">Salute Ukraine!</h1>
+        <header className="header flex flex-row p-4 pb-3 items-center text-center gap-x-8">
+          <a href="https://www.saluteukraine.com/">
+            <h1 className="headline text-4xl font-bold">Salute Ukraine!</h1>
+          </a>
+          <a href="https://www.saluteukraine.com/">
+            <img
+              src="https://res.cloudinary.com/dxjzrhogi/image/upload/v1678725336/salute-ukraine/icons/salute-ukraine_rtesqx.svg"
+              alt="Icon of Ukrainian soldier giving salute gesture"
+              width="70"
+              height="70"
+            />
+          </a>
         </header>
         <section className="hero w-full shadow">
           <div className="flex flex-col items-center justify-center gap-y-4  p-4">
@@ -43,11 +53,11 @@ export default function Flag() {
           </div>
           <div className="icons bg-white flex flex-row flex-wrap justify-center p-4 gap-8 text-black underline">
             <Icon name="Telegram" href="https://t.me/SaluteUkraine" />
-            <Icon name="YouTube" href="https://www.youtube.com/channel/UCLNXzp2NKjrEfmWjTJJykcA" />
-            <Icon name="Twitch" href="https://www.twitch.tv/saluteukraine" />
+            <Icon name="YouTube" href="https://www.youtube.com/@SaluteUkraine" />
+            <Icon name="Instagram" href="https://www.instagram.com/saluteukraine/" />
             <Icon name="Twitter" href="https://twitter.com/SaluteUkraine" />
-            <Icon name="LinkedIn" href="https://www.linkedin.com/in/lily-dayton/" />
-            <Icon name="Facebook" href="https://www.facebook.com/profile.php?id=100090066385190" />
+            <Icon name="LinkedIn" href="https://www.linkedin.com/company/saluteukraine" />
+            <Icon name="Facebook" href="https://www.facebook.com/SaluteUkraineNYC" />
             <Icon name="E-Mail" href="mailto:lily.dayton.3@gmail.com" />
           </div>
         </section>
@@ -99,16 +109,14 @@ function Icon({ href, name }: IconProps) {
     <a href={href}>
       <button
         type="button"
-        className="text-white bg-[#2b58b8] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm text-center flex flex-col items-center justify-between dark:focus:ring-[#3b5998]/55 mr-2 mb-2 w-28 h-28 p-3 pt-6"
-      >
+        className="text-white bg-[#2b58b8] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm text-center flex flex-col items-center justify-between dark:focus:ring-[#3b5998]/55 mr-2 mb-2 w-28 h-28 p-3 pt-6">
         <svg
           className="w-10 h-10 mr-2 -ml-1"
           aria-hidden="true"
           focusable="false"
           role="img"
           xmlns="http://www.w3.org/2000/svg"
-          viewBox={`${iconPaths[name].viewport[0]} ${iconPaths[name].viewport[1]} ${iconPaths[name].viewport[2]} ${iconPaths[name].viewport[3]}`}
-        >
+          viewBox={`${iconPaths[name].viewport[0]} ${iconPaths[name].viewport[1]} ${iconPaths[name].viewport[2]} ${iconPaths[name].viewport[3]}`}>
           <path fill="currentColor" d={iconPaths[name].path}></path>
         </svg>
         {name}
@@ -148,6 +156,10 @@ const iconPaths: IconMap = {
   },
   Twitch: {
     path: "M45.845 0l-34.389 87.872v359.168h122.261v64.96h68.779l64.96 -64.96h99.349l133.739 -133.739v-313.301h-454.699zm408.832 290.389l-76.416 76.416h-122.261l-64.96 64.96v-64.96h-103.168v-320.96h366.805v244.544zm-76.416 -156.651v133.589h-45.845v-133.589h45.845zm-122.261 0v133.589h-45.845v-133.589h45.845z",
+    viewport: [0, 0, 512, 512],
+  },
+  Instagram: {
+    path: "M 256 46.144531 C 324.351562 46.144531 332.457031 46.398438 359.464844 47.636719 C 428.84375 50.792969 461.246094 83.710938 464.40625 152.574219 C 465.644531 179.5625 465.878906 187.667969 465.878906 256.019531 C 465.878906 324.394531 465.621094 332.480469 464.40625 359.464844 C 461.226562 428.265625 428.90625 461.246094 359.464844 464.40625 C 332.457031 465.644531 324.394531 465.898438 256 465.898438 C 187.648438 465.898438 179.542969 465.644531 152.554688 464.40625 C 83.007812 461.226562 50.773438 428.160156 47.617188 359.445312 C 46.378906 332.457031 46.121094 324.375 46.121094 256 C 46.121094 187.648438 46.398438 179.5625 47.617188 152.554688 C 50.792969 83.710938 83.113281 50.773438 152.554688 47.617188 C 179.5625 46.398438 187.648438 46.144531 256 46.144531 Z M 256 0 C 186.476562 0 177.769531 0.296875 150.464844 1.535156 C 57.492188 5.800781 5.824219 57.386719 1.558594 150.441406 C 0.296875 177.769531 0 186.476562 0 256 C 0 325.523438 0.296875 334.25 1.535156 361.558594 C 5.800781 454.527344 57.386719 506.199219 150.441406 510.464844 C 177.769531 511.703125 186.476562 512 256 512 C 325.523438 512 334.25 511.703125 361.558594 510.464844 C 454.441406 506.199219 506.238281 454.613281 510.441406 361.558594 C 511.703125 334.25 512 325.523438 512 256 C 512 186.476562 511.703125 177.769531 510.464844 150.464844 C 506.28125 57.578125 454.632812 5.824219 361.578125 1.558594 C 334.25 0.296875 325.523438 0 256 0 Z M 256 124.542969 C 183.402344 124.542969 124.542969 183.402344 124.542969 256 C 124.542969 328.597656 183.402344 387.476562 256 387.476562 C 328.597656 387.476562 387.457031 328.617188 387.457031 256 C 387.457031 183.402344 328.597656 124.542969 256 124.542969 Z M 256 341.332031 C 208.875 341.332031 170.667969 303.148438 170.667969 256 C 170.667969 208.875 208.875 170.667969 256 170.667969 C 303.125 170.667969 341.332031 208.875 341.332031 256 C 341.332031 303.148438 303.125 341.332031 256 341.332031 Z M 392.660156 88.640625 C 375.679688 88.640625 361.921875 102.398438 361.921875 119.359375 C 361.921875 136.320312 375.679688 150.078125 392.660156 150.078125 C 409.621094 150.078125 423.359375 136.320312 423.359375 119.359375 C 423.359375 102.398438 409.621094 88.640625 392.660156 88.640625 Z M 392.660156 88.640625",
     viewport: [0, 0, 512, 512],
   },
 };
