@@ -30,7 +30,7 @@ export default function Flag() {
         <meta name="twitter:card" content="summary" />
       </Head>
       <main className="flex flex-col items-center bg-white">
-        <header className="header flex flex-row p-4 pb-3 items-center text-center gap-x-8">
+        <header className="header flex flex-row p-4 pb-3 items-center text-center gap-x-2 md:gap-x-8">
           <a href="https://www.saluteukraine.com/">
             <h1 className="headline text-4xl font-bold">Salute Ukraine!</h1>
           </a>
@@ -52,12 +52,11 @@ export default function Flag() {
             </div>
           </div>
           <div className="icons bg-white flex flex-row flex-wrap justify-center p-4 gap-8 text-black underline">
-            <Icon name="Telegram" href="https://t.me/SaluteUkraine" />
             <Icon name="YouTube" href="https://www.youtube.com/@SaluteUkraine" />
             <Icon name="Instagram" href="https://www.instagram.com/saluteukraine/" />
-            <Icon name="Twitter" href="https://twitter.com/SaluteUkraine" />
-            <Icon name="LinkedIn" href="https://www.linkedin.com/company/saluteukraine" />
             <Icon name="Facebook" href="https://www.facebook.com/SaluteUkraineNYC" />
+            <Icon name="Telegram" href="https://t.me/SaluteUkraine" />
+            <Icon name="Twitter" href="https://twitter.com/SaluteUkraine" />
             <Icon name="E-Mail" href="mailto:lily.dayton.3@gmail.com" />
           </div>
         </section>
@@ -111,7 +110,7 @@ function Icon({ href, name }: IconProps) {
         type="button"
         className="text-white bg-[#2b58b8] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm text-center flex flex-col items-center justify-between dark:focus:ring-[#3b5998]/55 mr-2 mb-2 w-28 h-28 p-3 pt-6">
         <svg
-          className="w-10 h-10 mr-2 -ml-1"
+          className="w-10 h-10 -ml-1"
           aria-hidden="true"
           focusable="false"
           role="img"
