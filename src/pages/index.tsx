@@ -54,10 +54,8 @@ export default function Flag() {
           <div className="icons bg-white flex flex-row flex-wrap justify-center p-4 gap-8 text-black underline">
             <Icon name="YouTube" href="https://www.youtube.com/@SaluteUkraine" />
             <Icon name="Instagram" href="https://www.instagram.com/saluteukraine/" />
-            <Icon name="Facebook" href="https://www.facebook.com/SaluteUkraineNYC" />
             <Icon name="Telegram" href="https://t.me/SaluteUkraine" />
             <Icon name="Twitter" href="https://twitter.com/SaluteUkraine" />
-            <Icon name="E-Mail" href="mailto:lily.dayton.3@gmail.com" />
           </div>
         </section>
         <div className="grid grid-cols-1 p-8 pt-4">
