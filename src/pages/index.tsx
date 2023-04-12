@@ -51,7 +51,7 @@ export default function Flag() {
               </h2>
             </div>
           </div>
-          <div className="icons bg-white flex flex-row flex-wrap justify-center p-4 gap-8 text-black underline">
+          <div className="icons bg-white flex flex-row flex-wrap justify-center pl-2 pt-4 pb-2 gap-2 text-black underline">
             <Icon name="YouTube" href="https://www.youtube.com/@SaluteUkraine" />
             <Icon name="Instagram" href="https://www.instagram.com/saluteukraine/" />
             <Icon name="Telegram" href="https://t.me/SaluteUkraine" />
@@ -63,10 +63,7 @@ export default function Flag() {
             <h3 className="font-bold text-xl">Volunteers Needed!</h3>
             <ol className="list-disc list-inside">
               <li>Hosts & co-hosts for videos and podcasts</li>
-              <li>
-                Translation, especially Ukrainian, German, French, Japanese, Korean, Chinese,
-                Spanish, Hebrew, and Turkish.
-              </li>
+              <li>Ukrainian language translation</li>
               <li>Video editing</li>
               <li>Image editing & illustration</li>
               <li>UX & web design</li>
