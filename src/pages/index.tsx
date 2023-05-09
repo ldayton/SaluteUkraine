@@ -63,12 +63,10 @@ export default function Flag() {
           <div className="mb-3">
             <h3 className="font-bold text-xl">Volunteers Needed!</h3>
             <ol className="list-disc list-inside">
-              <li>Hosts & co-hosts for videos and podcasts</li>
+              <li>Hosts and interview guests</li>
               <li>Ukrainian language translation</li>
-              <li>Video editing</li>
-              <li>Image editing & illustration</li>
-              <li>UX & web design</li>
-              <li>Software development (React + Next.js)</li>
+              <li>Video & image editing</li>
+              <li>Web development (React + Next.js)</li>
             </ol>
           </div>
           <div>
