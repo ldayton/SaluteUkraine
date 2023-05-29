@@ -60,7 +60,6 @@ export default function Flag() {
             <Icon name="Telegram" href="https://t.me/SaluteUkraine" />
             <Icon name="LinkedIn" href="https://www.linkedin.com/company/saluteukraine/" />
             <Icon name="Reddit" href="https://www.reddit.com/r/SaluteUkraine/" />
-            <Icon name="Discord" href="https://discord.gg/9BBYpFyq" />
           </div>
         </section>
         <div className="grid grid-cols-1 p-8 pt-4">
