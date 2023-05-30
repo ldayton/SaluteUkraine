@@ -70,7 +70,6 @@ export default function Flag() {
               <li>Social media managers</li>
               <li>Ukrainian language translation</li>
               <li>Video & image editing</li>
-              <li>Web development (React + Next.js)</li>
             </ol>
           </div>
           <div>
