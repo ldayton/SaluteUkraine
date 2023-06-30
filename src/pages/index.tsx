@@ -52,14 +52,14 @@ export default function Flag() {
             </div>
           </div>
           <div className="icons bg-white flex flex-row flex-wrap justify-center pl-2 pt-4 pb-2 gap-2 text-black underline">
-            <Icon name="YouTube" href="https://www.youtube.com/@SaluteUkraine" />
             <Icon name="Instagram" href="https://www.instagram.com/saluteukraine/" />
+            <Icon name="YouTube" href="https://www.youtube.com/@SaluteUkraine" />
             <Icon name="Facebook" href="https://www.facebook.com/SaluteUkraineNYC" />
             <Icon name="TikTok" href="https://www.tiktok.com/@saluteukraine" />
             <Icon name="Twitter" href="https://twitter.com/SaluteUkraine" />
             <Icon name="Telegram" href="https://t.me/SaluteUkraine" />
-            <Icon name="LinkedIn" href="https://www.linkedin.com/company/saluteukraine/" />
-            <Icon name="Reddit" href="https://www.reddit.com/r/SaluteUkraine/" />
+{/*             <Icon name="LinkedIn" href="https://www.linkedin.com/company/saluteukraine/" /> */}
+{/*             <Icon name="Reddit" href="https://www.reddit.com/r/SaluteUkraine/" /> */}
           </div>
         </section>
         <div className="grid grid-cols-1 p-8 pt-4">
