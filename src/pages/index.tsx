@@ -56,8 +56,8 @@ export default function Flag() {
             <Icon name="YouTube" href="https://www.youtube.com/@SaluteUkraine" />
             <Icon name="Facebook" href="https://www.facebook.com/SaluteUkraineNYC" />
             <Icon name="TikTok" href="https://www.tiktok.com/@saluteukraine" />
-            <Icon name="Twitter" href="https://twitter.com/SaluteUkraine" />
-            <Icon name="Telegram" href="https://t.me/SaluteUkraine" />
+{/*             <Icon name="Twitter" href="https://twitter.com/SaluteUkraine" /> */}
+{/*             <Icon name="Telegram" href="https://t.me/SaluteUkraine" /> */}
 {/*             <Icon name="LinkedIn" href="https://www.linkedin.com/company/saluteukraine/" /> */}
 {/*             <Icon name="Reddit" href="https://www.reddit.com/r/SaluteUkraine/" /> */}
           </div>
