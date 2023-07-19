@@ -6,14 +6,14 @@ const previewUrl = "https://www.saluteukraine.com/";
 const previewThumbnail =
   "https://res.cloudinary.com/dxjzrhogi/image/upload/v1677942627/salute-ukraine/stop-putin-large_iw6baf.png";
 const previewThumbnailAlt = "hand holding sign that says 'STOP PUTIN'";
-const previewTitle = "Salute Ukraine! Volunteer now 💪";
-const previewDescription = "Tech professionals rallying global public support for Ukraine.";
+const previewTitle = "Salute Ukraine! Jewish-Ukrainian Relations & Reconciliation";
+const previewDescription = "Jewish-Ukrainian Relations & Reconciliation";
 
 export default function Flag() {
   return (
     <>
       <Head>
-        <title>Salute Ukraine! Volunteer now 💪</title>
+        <title>Salute Ukraine! Jewish-Ukrainian Relations & Reconciliation</title>
         <meta name="description" content={previewDescription} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -47,7 +47,7 @@ export default function Flag() {
           <div className="flex flex-col items-center justify-center gap-y-4  p-4">
             <div className="w-full">
               <h2 className="text-2xl font-bold text-center">
-                We are technology professionals rallying global public support for Ukraine.
+                Jewish-Ukrainian Relations & Reconciliation
               </h2>
             </div>
           </div>
@@ -63,15 +63,6 @@ export default function Flag() {
           </div>
         </section>
         <div className="grid grid-cols-1 p-8 pt-4">
-          <div className="mb-3">
-            <h3 className="font-bold text-xl">Volunteers Needed!</h3>
-            <ol className="list-disc list-inside">
-              <li>Hosts and interview guests</li>
-              <li>Social media managers</li>
-              <li>Ukrainian language translation</li>
-              <li>Video & image editing</li>
-            </ol>
-          </div>
           <div>
             <img
               src="https://res.cloudinary.com/dxjzrhogi/image/upload/v1677264833/salute-ukraine/save-ukrainian-children_qsrrlt.webp"
