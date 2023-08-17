@@ -64,12 +64,14 @@ export default function Flag() {
         </section>
         <div className="grid grid-cols-1 p-8 pt-4">
           <div>
-            <img
+            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-fc03a21c-128d-4f36-bc32-3d1bdc511097"></div>
+{/*             <img
               src="https://res.cloudinary.com/dxjzrhogi/image/upload/v1677264833/salute-ukraine/save-ukrainian-children_qsrrlt.webp"
               alt="Girl draped in Ukrainian flag holding sign saying 'Save Ukrainian Children'"
               width="500"
               height="500"
-            />
+            /> */}
           </div>
         </div>
         <div className="contact text-xl p-4 pb-12 shadow-xl rounded  w-full flex flex-col gap-y-2">
