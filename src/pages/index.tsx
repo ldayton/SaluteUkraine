@@ -6,14 +6,14 @@ const previewUrl = "https://www.saluteukraine.com/";
 const previewThumbnail =
   "https://res.cloudinary.com/dxjzrhogi/image/upload/v1677942627/salute-ukraine/stop-putin-large_iw6baf.png";
 const previewThumbnailAlt = "hand holding sign that says 'STOP PUTIN'";
-const previewTitle = "Salute Ukraine! Jewish-Ukrainian Relations & Reconciliation";
-const previewDescription = "Jewish-Ukrainian Relations & Reconciliation";
+const previewTitle = "Salute Ukraine! Jewish-Ukrainian Relations & Memory";
+const previewDescription = "Jewish-Ukrainian Relations & Memory";
 
 export default function Flag() {
   return (
     <>
       <Head>
-        <title>Salute Ukraine! Jewish-Ukrainian Relations & Reconciliation</title>
+        <title>{previewTitle}</title>
         <meta name="description" content={previewDescription} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -47,7 +47,7 @@ export default function Flag() {
           <div className="flex flex-col items-center justify-center gap-y-4  p-4">
             <div className="w-full">
               <h2 className="text-2xl font-bold text-center">
-                Jewish-Ukrainian Relations & Reconciliation
+                {previewDescription}
               </h2>
             </div>
           </div>
