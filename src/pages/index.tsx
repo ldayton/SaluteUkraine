@@ -6,8 +6,8 @@ const previewUrl = "https://www.saluteukraine.com/";
 const previewThumbnail =
   "https://res.cloudinary.com/dxjzrhogi/image/upload/v1677942627/salute-ukraine/stop-putin-large_iw6baf.png";
 const previewThumbnailAlt = "hand holding sign that says 'STOP PUTIN'";
-const previewTitle = "Salute Ukraine! Jewish-Ukrainian Relations & Memory";
-const previewDescription = "Jewish-Ukrainian Relations & Memory";
+const previewTitle = "Salute Ukraine!";
+const previewDescription = "What a ride!";
 
 export default function Flag() {
   return (
@@ -52,9 +52,9 @@ export default function Flag() {
             </div>
           </div>
           <div className="icons bg-white flex flex-row flex-wrap justify-center pl-2 pt-4 pb-2 gap-2 text-black underline">
-            <Icon name="Instagram" href="https://www.instagram.com/saluteukraine/" />
-            <Icon name="Facebook" href="https://www.facebook.com/SaluteUkraineNYC" />
-            <Icon name="YouTube" href="https://www.youtube.com/@SaluteUkraine" />
+{/*             <Icon name="Instagram" href="https://www.instagram.com/saluteukraine/" /> */}
+{/*             <Icon name="Facebook" href="https://www.facebook.com/SaluteUkraineNYC" /> */}
+{/*            <Icon name="YouTube" href="https://www.youtube.com/@SaluteUkraine" /> */}
 {/*             <Icon name="TikTok" href="https://www.tiktok.com/@saluteukraine" /> */}
 {/*             <Icon name="Twitter" href="https://twitter.com/SaluteUkraine" /> */}
 {/*             <Icon name="Telegram" href="https://t.me/SaluteUkraine" /> */}
@@ -64,8 +64,6 @@ export default function Flag() {
         </section>
         <div className="grid grid-cols-1 p-8 pt-4">
           <div>
-            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div className="elfsight-app-fc03a21c-128d-4f36-bc32-3d1bdc511097"></div>
 {/*             <img
               src="https://res.cloudinary.com/dxjzrhogi/image/upload/v1677264833/salute-ukraine/save-ukrainian-children_qsrrlt.webp"
               alt="Girl draped in Ukrainian flag holding sign saying 'Save Ukrainian Children'"
@@ -76,11 +74,9 @@ export default function Flag() {
         </div>
         <div className="contact text-xl p-4 pb-12 shadow-xl rounded  w-full flex flex-col gap-y-2">
           <div className="text-center text-white">
-            Contact{" "}
             <a className="underline" href="mailto:lily.dayton.3@gmail.com">
               Lily Dayton
-            </a>{" "}
-            to learn more!
+            </a>
           </div>
         </div>
       </main>
