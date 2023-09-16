@@ -7,7 +7,7 @@ const previewThumbnail =
   "https://res.cloudinary.com/dxjzrhogi/image/upload/v1677942627/salute-ukraine/stop-putin-large_iw6baf.png";
 const previewThumbnailAlt = "hand holding sign that says 'STOP PUTIN'";
 const previewTitle = "Salute Ukraine!";
-const previewDescription = "What a ride!";
+const previewDescription = "Rebranded!";
 
 export default function Flag() {
   return (
@@ -52,11 +52,11 @@ export default function Flag() {
             </div>
           </div>
           <div className="icons bg-white flex flex-row flex-wrap justify-center pl-2 pt-4 pb-2 gap-2 text-black underline">
-{/*             <Icon name="Instagram" href="https://www.instagram.com/saluteukraine/" /> */}
+            <Icon name="Instagram" href="https://www.instagram.com/lilydayton_/" /> 
 {/*             <Icon name="Facebook" href="https://www.facebook.com/SaluteUkraineNYC" /> */}
-{/*            <Icon name="YouTube" href="https://www.youtube.com/@SaluteUkraine" /> */}
+            <Icon name="YouTube" href="https://www.youtube.com/channel/UCLNXzp2NKjrEfmWjTJJykcA" />
 {/*             <Icon name="TikTok" href="https://www.tiktok.com/@saluteukraine" /> */}
-{/*             <Icon name="Twitter" href="https://twitter.com/SaluteUkraine" /> */}
+            <Icon name="Twitter" href="https://twitter.com/SaluteUkraine" />
 {/*             <Icon name="Telegram" href="https://t.me/SaluteUkraine" /> */}
 {/*             <Icon name="LinkedIn" href="https://www.linkedin.com/company/saluteukraine/" /> */}
 {/*             <Icon name="Reddit" href="https://www.reddit.com/r/SaluteUkraine/" /> */}
