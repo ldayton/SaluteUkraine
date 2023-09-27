@@ -7,7 +7,7 @@ const previewThumbnail =
   "https://res.cloudinary.com/dxjzrhogi/image/upload/v1677942627/salute-ukraine/stop-putin-large_iw6baf.png";
 const previewThumbnailAlt = "hand holding sign that says 'STOP PUTIN'";
 const previewTitle = "Salute Ukraine!";
-const previewDescription = "Rebranded!";
+const previewDescription = "History & memory politics";
 
 export default function Flag() {
   return (
@@ -56,7 +56,7 @@ export default function Flag() {
 {/*             <Icon name="Facebook" href="https://www.facebook.com/SaluteUkraineNYC" /> */}
             <Icon name="YouTube" href="https://www.youtube.com/channel/UCLNXzp2NKjrEfmWjTJJykcA" />
 {/*             <Icon name="TikTok" href="https://www.tiktok.com/@saluteukraine" /> */}
-            <Icon name="Twitter" href="https://twitter.com/SaluteUkraine" />
+            {/* <Icon name="Twitter" href="https://twitter.com/SaluteUkraine" /> */}
 {/*             <Icon name="Telegram" href="https://t.me/SaluteUkraine" /> */}
 {/*             <Icon name="LinkedIn" href="https://www.linkedin.com/company/saluteukraine/" /> */}
 {/*             <Icon name="Reddit" href="https://www.reddit.com/r/SaluteUkraine/" /> */}
